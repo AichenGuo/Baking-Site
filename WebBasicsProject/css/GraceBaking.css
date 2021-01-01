@@ -1,0 +1,155 @@
+/*This stylesheet works well on 15in MacBook using Chrome*/
+
+body{
+	background: #ffffff;
+	color: #5a5b5b;
+}
+
+header{
+	text-align: center;
+	margin-top: -15px;
+	margin-left: -15px;
+    margin-right: -15px;
+}
+
+header img{/*
+	height: 300px;*/
+    width: 100%;
+}
+
+footer{
+	text-align: center;
+	font-size: 12px;
+
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	color: #5a5b5b;
+	display: inline-block;
+	padding: 5px;
+}
+
+nav{
+	align-content: center;
+	line-height: 18px;
+}
+
+.active{
+	font-weight: bold;
+}
+
+nav a:hover{
+	background-color: #fff8ff;
+}
+
+.left{
+	float: left;
+	display: inline-block;
+	background-color: #f6c1bf;
+	width: 9%;
+	border-radius: 10px;
+	padding: 1.5%;
+	margin-left: 6%;
+	margin-top: 4%;
+	position: sticky;
+	top: 5%;
+}
+
+.right{
+	display: inline-block;
+	width: 75%;
+	padding-left: 3%;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+.homepic {
+	display: inline-block;
+	width: 38%;
+	text-align: center;
+	overflow: hidden;
+	transition: transform .5s ease;
+}
+
+.homepic img{
+	 height: 90%; 
+	 width: 90%; 
+	 border-radius: 10px;
+	 margin-top: 1.8%;
+	 transition: transform .5s ease;
+}
+
+.homepic:hover a{
+	font-weight: bold;
+}
+
+.homepic:hover img{
+/*	height: 90%; 
+	width: 90%; */
+	transform: scale(1.07);
+}
+
+.half{
+	width:38%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
+
+#pagepic{
+	width: 40%;
+	margin-right: 2%;
+	margin-top: 2%;
+	border-radius: 10px;
+	display:inline-block;
+	float:left;
+}
+
+.steps{
+	display: inline-block;
+	width: 75%;
+	line-height: 30px;
+}
+
+
+#about{
+	display: inline-block;
+	margin-right: 2%;
+	width: 75%;
+	line-height: 30px;
+}
+
+table {
+    line-height: 25px;
+    padding-bottom: 2%;
+}
+
+table th{
+    padding: 3%;
+}
+
+table td{
+    width: 200px;
+}
+
+tr:nth-child(even){
+    background-color: #fef8f8;
+}
+
+#creamlava{
+	background-color: #ffffff;
+}
+
+tr:hover td {
+    opacity: 1;
+    font-weight: bold;
+    font-size:100%;
+}
+
+#portfolio{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
